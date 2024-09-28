@@ -49,22 +49,22 @@ function loadingAnimation() {
     // Show text after logo and image resizing
     setTimeout(() => {
         text.classList.add('show');  // Show text beside the logo
-    }, 4300); // 1 second after the logo moves to top-left
+    }, 5000); // 1 second after the logo moves to top-left
 
     // Show buttons after text appears
     setTimeout(() => {
         buttons.classList.add('btn');  // Show text beside the logo
-    }, 4300); // 1 second after the logo moves to left-right
+    }, 5000); // 1 second after the logo moves to left-right
 
     // Show a after text btn
     setTimeout(() => {
         newCustomer.classList.add('new-coust');  // Show text beside the logo
-    }, 4300); // 1 second after the logo moves to top-left
+    }, 5000); // 1 second after the logo moves to top-left
 
     // Main
     setTimeout(() => {
         main.classList.add('main_animation');  // Show text beside the logo
-    }, 4300); // 1 second after the logo moves to top-left
+    }, 5000); // 1 second after the logo moves to top-left
 
 }
 
